@@ -6,7 +6,7 @@ The project demonstrates object-oriented programming principles, financial calcu
 
 ## 📸 Application Preview
 
-![Application Preview](images/tax-calculator-preview.png)
+![Application Preview](images/image.png)
 
 ## 📌 Project Purpose
 This project simulates a simplified property tax calculation system that estimates tax obligations for different property types, including land and residential properties.
@@ -45,7 +45,7 @@ The application was designed to practice object-oriented programming concepts an
 - `EstateType` → enum for land classification
 - `Locality` → locality coefficient modeling
 
-## ▶️ Example Usage
+## ▶️ Example Tax Report
 ```
 === TAX REPORT ===
 
