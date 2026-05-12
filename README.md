@@ -1,75 +1,51 @@
-# Property Tax Calculator (OOP in Python)
-## About the project
+# 🏠 Object-Oriented Property Tax Calculator
 
-This project is a simple console application for calculating property tax based on different property types and locality coefficients.
+Console-based Python application for calculating property tax based on property type, area, and locality coefficients.
 
-The goal of this project was to practice object-oriented programming (OOP) concepts in Python, including inheritance, abstraction, and working with enums. 
+The project demonstrates object-oriented programming principles, financial calculation logic, and interactive user input handling in Python. 
 
-## Features
+## 📸 Application Preview
 
-- Calculation of property tax for: 
+![Application Preview](image.png)
 
-    - Land (different types: garden, forest, building site, etc.)
-    - Residentail properties
-    - Commercial properties
-- Use of locality coefficients
-- Support for multiple properties in one tax report
-- Console interface for user input
-- Automatic calculation of total tax 
+## 📌 Project Purpose
+This project simulates a simplified property tax calculation system that estimates tax obligations for different property types, including land and residential properties.
 
-## Project Structure
+The application was designed to practice object-oriented programming concepts and financial calculation workflows using Python.
 
-The project is built using OOP principles:
+## ⚡ Features
+- Property tax estimation
+- Support for multiple property types
+- Locality coefficient calculations
+- Commercial vs residential property handling
+- Interactive console input
+- Tax report generation
+- Object-oriented architecture
 
-- **Abstract class** `Property` - defines a common interface
-- **Classes:**
-    - `Estate` - for land properties
-    - `Residence` - for houses/apartments
-- **Enum `EstateType`** - defines types of land with coefficients
-- **Class `Locality`** - stores location and coefficient
-- **Class `TaxReport`** - aggregates properties and calculates total tax
+## 🛠️ Technologies Used
+- Python
+- Object-Oriented Programming (OOP)
+- Abstract Classes
+- Enums
+- CLI application development
 
-## What I Learned
+## 🧱 OOP Concepts Demonstrated
+- Inheritance
+- Abstract base classes
+- Encapsulation
+- Enums
+- Class composition
+- Polymorphism
 
-- Object-oriented programming in Python
+## 📂 Project Structure
 
-- Working with abstract classes (`ABC`)
-- Using `Enum` for cleaner and safer code
-- Designing class structure and relationships
-- Handling user input in console applications
-- Structuring a larger Python script
+- `Property` → abstract base class
+- `Estate` and `Residence` → inherited property types
+- `TaxReport` → report aggregation and total calculation
+- `EstateType` → enum for land classification
+- `Locality` → locality coefficient modeling
 
-## How to Run
-
-1. Clone the repository:
-
-```
-bash 
-git clone https://github.com/your-username/property-tax-calculator.git
-```
-
-2. Navigate to the project folder:
-```
-bash
-cd property-tax-calculator
-```
-
-3. Run the script: 
-```
-bash
-python property_tax_calculator.py
-```
-
-4. Follow the instructions in the console: 
-- Choose property type (estate or residence)
-- Enter required values
-- View the calculated tax report
-
-### Alternative
-You can also download the project as a ZIP file, extract it, and run the script locally.
-
-## Example Output
-
+## ▶️ Example Tax Report
 ```
 === TAX REPORT ===
 
@@ -82,16 +58,23 @@ Properties:
 Total tax: 15000 CZK
 ```
 
-## Future Improvements
+## 🧠 Skills Demonstrated
+- Python programming
+- Financial calculation logic
+- Object-oriented design
+- Interactive user input handling
+- Console application development
+- Problem solving
 
-- Add input validation (better error handling)
+## 💡 Real-World Relevance
+Property tax estimation systems are commonly used in real estate and financial planning applications. This project demonstrates how Python can be used to automate financial calculations and structure domain-specific business logic.
 
-- Separate logic and user interface
-- Convert to a sipmle web app or API
-- Add unit tests
+## ✅ Conclusion
+This project demonstrates practical Python programming skills through the implementation of an object-oriented financial calculator capable of handling multiple property scenarios and generating tax reports.
 
-## Author
+## 👩‍💻 Author
 
-Kristyna Slamova
-- [LinkedIn](https://linkedin.com/in/kristýna-slámová-3a6905168)
+Kristýna Slámová
+Aspiring Data Analyst / Python Developer
+- [LinkedIn](https://linkedin.com/in/kristýna-slámová)
 - [GitHub](https://github.com/slamova-labs)
